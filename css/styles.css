@@ -4,6 +4,6 @@
 
 .jumbotron {
   margin-top: 4em;
-  background-color: #AFFFFD;
+  background-image: image();
   color: green;
 }
