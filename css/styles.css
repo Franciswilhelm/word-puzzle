@@ -1,0 +1,9 @@
+#puzzle_output {
+  display: none;
+}
+
+.jumbotron {
+  margin-top: 4em;
+  background-color: #AFFFFD;
+  color: green;
+}

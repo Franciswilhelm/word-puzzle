@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="puzzle">
+        <div class="jumbotron">
+          <div class="form-group">
+             <h1>remove the vowels</h1>
+             <label for="item1">Enter a sentence: </label>
+             <input id="puzzle_input1" required input type="text" placeholder="type a sentence" autofocus="autofocus"></input>
+             <br>
+             <button type="submit" class="btn btn-success small-space-above">Puzzle!</button>
+          </div>
+        </div>
+      </form>
+      <div class="jumbotron">
+      <p><strong>Your custom sentence puzzle:</strong></p>
+      <p id="puzzle_output"></p>
+      </div>
+    </div>
+    <div class="results"><span id="listCaps"></span>
+    </div>
+  </body>
+</html>
